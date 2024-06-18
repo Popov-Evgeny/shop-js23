@@ -14,6 +14,5 @@ When('я нажимаю на кнопку {string}', (label: string) => {
 });
 
 When('я вижу текст {string}', (text: string) => {
-  I.wait(5);
   I.see(text);
 });
