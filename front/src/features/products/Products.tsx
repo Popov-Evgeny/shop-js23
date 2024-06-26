@@ -30,7 +30,7 @@ const Products = () => {
             </Grid>
 
             <Grid item container flexWrap="wrap" direction="row" gap={1}>
-                {products.map(product => (
+                {products.length && products.map(product => (
                     <ProductItem
                         key={product._id}
                         id={product._id}
