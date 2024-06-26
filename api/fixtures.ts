@@ -47,7 +47,7 @@ const run = async () => {
       title: 'Samsung 990 Pro 1TB',
       price: 150,
       category: ssdCategory,
-      image: 'fixtures/ssd.jpg',
+      image: 'fixtures/ssd.webp',
     },
   );
 
