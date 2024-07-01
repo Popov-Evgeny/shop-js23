@@ -20,7 +20,7 @@ const Products = () => {
         <Grid container direction="column" gap={2}>
             <Grid item container justifyContent="space-between" alignItems="center">
                 <Grid item>
-                    <Typography variant="h4">Products</Typography>
+                    <Typography variant="h4">All Products</Typography>
                 </Grid>
                 {user && user.role === 'admin' && (
                     <Grid item>
